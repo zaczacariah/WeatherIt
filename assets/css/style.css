@@ -1,0 +1,16 @@
+@import url("https://use.typekit.net/kyl3gam.css");
+
+:root {
+  --font-base: "Neue Haas Grotesk", sans-serif;
+  --primary-color: #465ab8;
+  --secondary-color: #323d50;
+  --black-color: #030303;
+  --darkBlue-color: #261460;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
