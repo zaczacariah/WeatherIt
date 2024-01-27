@@ -127,7 +127,7 @@ async function getCoord(city) {
     try{
         // Accounting for spaces in city name e.g. San Deigo needs %20
         city = encodeURI(city);
-        var url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${KEY}`
+        var url = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${KEY}`
         var response = await fetch(url);
 
         if (response.status !== 200) {
@@ -159,7 +159,7 @@ async function getCoord(city) {
 async function getWeather(lat, lon) {
     try {
 
-        url =  `http://api.openweathermap.org/data/2.5/forecast?units=metric&lat=${lat}&lon=${lon}&appid=${KEY}`;
+        url =  `https://api.openweathermap.org/data/2.5/forecast?units=metric&lat=${lat}&lon=${lon}&appid=${KEY}`;
         
 
         var response = await fetch(url);
