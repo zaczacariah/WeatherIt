@@ -11,7 +11,7 @@ Live Link:
 https://zaczacariah.github.io/WeatherIt/
 
 ## Screenshot
-![alt text](./Assets/screenshot.png)
+![alt text](./assets/screenshot.png)
 
 ## Installation
 
