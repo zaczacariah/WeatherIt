@@ -1,5 +1,6 @@
 @import url("https://use.typekit.net/kyl3gam.css");
 
+/* Initalise */
 :root {
   --font-base: "Neue Haas Grotesk", sans-serif;
   --primary-color: #465ab8;
@@ -17,7 +18,7 @@
   font-family: var(--font-base);
 }
 
-
+/* Top Header */
 header {
     display: flex;
     flex-direction: row;
@@ -35,6 +36,7 @@ header h1{
 
 }
 
+/* MAIN PAGE SECTION */
 section.main {
     display:flex;
     flex-direction: row;
