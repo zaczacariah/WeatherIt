@@ -8,7 +8,9 @@ Search for any city by name and we will provide the today's forecast as well as 
 Your favourites will be added to the left hand side for easy retrieval and if you refresh the page we will keep your last city weather conditions. 
 
 Live Link:
-https://zaczacariah.github.io/WeatherIt/
+https://zaczacariah.github.io/tempWeatherIt/
+
+Please note a temp repo was created as live pages did not work for this repo
 
 ## Screenshot
 ![alt text](./assets/screenshot.png)
